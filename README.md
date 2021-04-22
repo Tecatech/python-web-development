@@ -1,2 +1,1 @@
-# python-web-development
-Various scripts for interacting with web and networking
+# Various scripts for interacting with web and networking
