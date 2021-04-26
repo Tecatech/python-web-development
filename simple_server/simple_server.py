@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import logging
-
 from sys import argv
 
 class ServerHandler(BaseHTTPRequestHandler):
