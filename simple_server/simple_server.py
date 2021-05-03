@@ -23,7 +23,7 @@ class ServerHandler(BaseHTTPRequestHandler):
 
 def run(server_class = HTTPServer, handler_class = ServerHandler, port = 8080):
     logging.basicConfig(level = logging.INFO)
-    server_address = ('', port)
+    server_address = ("", port)
     server = server_class(server_address, handler_class)
     logging.info("starting custom server...\n")
     try:
@@ -33,7 +33,7 @@ def run(server_class = HTTPServer, handler_class = ServerHandler, port = 8080):
     server.server_close()
     logging.info("stopping custom server...\n")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     if len(argv) == 2:
         run(port = int(argv[1]))
     else:
