@@ -1,6 +1,6 @@
 ```
-$ chmod +x simple_server.py
-$ ./simple_server.py
+$ chmod +x plain_server.py
+$ ./plain_server.py
 INFO:root:starting custom server...
 
 INFO:root:GET request!
