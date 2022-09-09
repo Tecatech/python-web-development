@@ -1,6 +1,5 @@
 from flask import Flask
 import redis
-
 import time
 
 app = Flask(__name__)
